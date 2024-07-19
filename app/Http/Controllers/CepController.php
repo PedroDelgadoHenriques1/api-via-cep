@@ -15,7 +15,9 @@ class CepController extends Controller
         $responses = [];
         
         foreach ($cepArray as $cep) {
-            $cep = str_replace(['-', ' '], '', $cep); // Remove hífen e espaços
+            // Remove hífen e espaços
+            $cep = str_replace(['-', ' '], '', $cep);
+
             if (strlen($cep) != 8) {
                 // Adiciona um erro se o CEP não tiver 8 dígitos
                 $responses[] = [
@@ -39,8 +41,9 @@ class CepController extends Controller
                         'error' => 'CEP não encontrado'
                     ];
                 } else {
+                    // Reorganiza os dados para garantir o formato correto
                     $responses[] = [
-                        'cep' => $data['cep'],
+                        'cep' => str_replace('-', '', $data['cep']), // Remove hífen
                         'label' => "{$data['logradouro']}, {$data['localidade']}",
                         'logradouro' => $data['logradouro'],
                         'complemento' => $data['complemento'] ?? 'N/A',
