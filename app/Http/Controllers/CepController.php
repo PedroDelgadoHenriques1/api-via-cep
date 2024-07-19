@@ -25,7 +25,9 @@ class CepController extends Controller
                 continue;
             }
 
-            $response = Http::get("https://viacep.com.br/ws/{$cep}/json/");
+            // Configuração para desabilitar a verificação SSL (se necessário)
+            $response = Http::withOptions(['verify' => false])
+                            ->get("https://viacep.com.br/ws/{$cep}/json/");
             
             if ($response->successful()) {
                 $data = $response->json();
