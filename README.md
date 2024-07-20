@@ -38,7 +38,7 @@ Exemplo: Acessando o caminho /search/local/CEP-1,CEP-2
 ## Copie o arquivo .env.example para .env
 cp .env.example .env
 
-## Edite o arquivo .env com suas configurações(se necessário)
+## Edite o arquivo .env com suas configurações(caso necessário)
 nano .env  # ou use qualquer editor de texto
 
 ## Gere a chave de aplicação
