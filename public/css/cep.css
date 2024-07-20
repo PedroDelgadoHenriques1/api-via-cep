@@ -1,11 +1,9 @@
-/* Reset básico para margens e preenchimentos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos gerais para o body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f3f4f6; /* Cinza Claro */
@@ -13,14 +11,12 @@ body {
     padding: 20px;
 }
 
-/* Estilo do título */
 h1 {
     color: #ff2d20; /* Azul Laravel */
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Estilo do formulário */
 form {
     background: #fff;
     padding: 20px;
@@ -30,17 +26,15 @@ form {
     margin: 0 auto;
 }
 
-/* Estilo dos rótulos dos campos */
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #374151; /* Cinza Escuro */
+    color: #374151; 
 }
 
-/* Estilo dos campos de entrada */
 input[type="text"] {
-    width: calc(100% - 22px); /* Ajusta a largura para considerar o padding */
+    width: calc(100% - 22px);
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -48,9 +42,8 @@ input[type="text"] {
     font-size: 16px;
 }
 
-/* Estilo do botão de envio (não presente no código original, mas útil para incluir) */
 button {
-    background-color: #ff2d20; /* Azul Laravel */
+    background-color: #ff2d20;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -60,5 +53,5 @@ button {
 }
 
 button:hover {
-    background-color: #e02a1f; /* Tom mais escuro do Azul Laravel para hover */
+    background-color: #e02a1f;
 }
