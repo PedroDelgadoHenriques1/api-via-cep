@@ -7,6 +7,8 @@ Exemplo: Acessando o caminho /search/local/CEP-1,CEP-2
 
 
 *Via postman*
+
+
 ![image](https://github.com/user-attachments/assets/2d2e27d8-9076-4579-ab9f-2dffc9277cab)
 
 
