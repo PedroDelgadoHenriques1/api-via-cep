@@ -32,21 +32,26 @@ Exemplo: Acessando o caminho /search/local/CEP-1,CEP-2
    ```bash
    * git clone https://github.com/PedroDelgadoHenriques1/laravelcepapi.git
    * cd local-projeto-instalado
-   * composer install
-   * npm install
+   * composer install  (Instalando dependências)
+   * npm install (Instalando dependências)
+   * cp .env.example .env (Copie o arquivo .env.example para .env)
+   * php artisan key:generate (Gere a chave de aplicação)
+   * php artisan key:generate (Gere a chave de aplicação)
+   * php artisan migrate (Execute as migrações do banco de dados)
+   * php artisan serve (Inicie o servidor)
 
-## Copie o arquivo .env.example para .env
-cp .env.example .env
 
-## Edite o arquivo .env com suas configurações(caso necessário)
+
+# Edite o arquivo .env com suas configurações(caso necessário)
 nano .env  # ou use qualquer editor de texto
 
-## Gere a chave de aplicação
-php artisan key:generate
 
-## Execute as migrações do banco de dados
-php artisan migrate
 
-## Inicie o servidor
-php artisan serve
+
+
+
+
+
+
+
 
