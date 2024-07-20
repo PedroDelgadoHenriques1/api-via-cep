@@ -36,7 +36,6 @@ Exemplo: Acessando o caminho /search/local/CEP-1,CEP-2
    * npm install (Instalando dependências)
    * cp .env.example .env (Copie o arquivo .env.example para .env)
    * php artisan key:generate (Gere a chave de aplicação)
-   * php artisan key:generate (Gere a chave de aplicação)
    * php artisan migrate (Execute as migrações do banco de dados)
    * php artisan serve (Inicie o servidor)
 
