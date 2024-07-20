@@ -30,7 +30,7 @@ Exemplo: Acessando o caminho /search/local/CEP-1,CEP-2
 1. **Clone o Repositório**
 
    ```bash
-   * git clone https://github.com/PedroDelgadoHenriques1/laravelcepapi.git
+   * https://github.com/PedroDelgadoHenriques1/api-via-cep.git
    * cd local-projeto-instalado
    * composer install  (Instalando dependências)
    * npm install (Instalando dependências)
@@ -41,14 +41,3 @@ Exemplo: Acessando o caminho /search/local/CEP-1,CEP-2
 
 # Edite o arquivo .env com suas configurações(caso necessário)
 nano .env  # ou use qualquer editor de texto
-
-
-
-
-
-
-
-
-
-
-
