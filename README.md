@@ -40,8 +40,6 @@ Exemplo: Acessando o caminho /search/local/CEP-1,CEP-2
    * php artisan migrate (Execute as migrações do banco de dados)
    * php artisan serve (Inicie o servidor)
 
-
-
 # Edite o arquivo .env com suas configurações(caso necessário)
 nano .env  # ou use qualquer editor de texto
 
