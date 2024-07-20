@@ -30,5 +30,7 @@ Exemplo: Acessando o caminho /search/local/CEP-1,CEP-2
 1. **Clone o Repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   * git clone https://github.com/PedroDelgadoHenriques1/laravelcepapi.git
+   * cd local-projeto-instalado
+   * composer install
+   * php artisan serve
