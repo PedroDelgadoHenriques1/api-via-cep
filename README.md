@@ -2,6 +2,7 @@
 
 Este projeto é uma API desenvolvida em Laravel que permite consultar informações de múltiplos CEPs usando a API do ViaCEP. A API retorna os dados dos endereços formatados conforme a especificação fornecida.
 Exemplo: Acessando o caminho /search/local/CEP-1,CEP-2
+
 ![image](https://github.com/user-attachments/assets/386d58dc-f540-405e-8db4-bfccb7d302f5)
 
 *Extra*: interface completando dados ao inserir cep
