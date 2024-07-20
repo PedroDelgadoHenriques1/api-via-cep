@@ -35,18 +35,18 @@ Exemplo: Acessando o caminho /search/local/CEP-1,CEP-2
    * composer install
    * npm install
 
-# Copie o arquivo .env.example para .env
+## Copie o arquivo .env.example para .env
 cp .env.example .env
 
-# Edite o arquivo .env com suas configurações(se necessário)
+## Edite o arquivo .env com suas configurações(se necessário)
 nano .env  # ou use qualquer editor de texto
 
-# Gere a chave de aplicação
+## Gere a chave de aplicação
 php artisan key:generate
 
-# Execute as migrações do banco de dados
+## Execute as migrações do banco de dados
 php artisan migrate
 
-# Inicie o servidor
+## Inicie o servidor
 php artisan serve
 
